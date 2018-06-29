@@ -1,5 +1,5 @@
 {
-  "name": "nodeversion",
+  "name": "nvr",
   "version": "1.0.0",
   "description": "Quick way to scrap the latest node version available.",
   "license": "MIT",
