@@ -14,13 +14,13 @@ N O D E V E R S I O N
 ## Install
 
 ```
-$ npm install --save nodeversion
+$ npm install --save nvr
 ```
 
 ## Usage
 
 ```js
-const nodeversion = require('nodeversion');
+const nodeversion = require('nvr');
 
 nodeversion().then(res => {
   console.log(res);
