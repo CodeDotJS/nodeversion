@@ -1,0 +1,43 @@
+{
+  "name": "nodeversion",
+  "version": "1.0.0",
+  "description": "Quick way to scrap the latest node version available.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeDotJS/nodeversion.git"
+  },
+  "author": "Rishi Giri <rushforlinux@gmail.com> (rishi.ml)",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "extract",
+    "scrap",
+    "find",
+    "latest",
+    "node.js",
+    "version"
+  ],
+  "dependencies": {
+    "got": "^6.3.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.0",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  },
+  "bugs": {
+    "url": "https://github.com/CodeDotJS/nodeversion/issues"
+  },
+  "homepage": "https://github.com/CodeDotJS/nodeversion#readme",
+  "main": "index.js"
+}
